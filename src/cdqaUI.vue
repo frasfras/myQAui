@@ -70,11 +70,11 @@ export default {
   props: {
     api_endpoint_cpu: {
       type: String,
-      default: "http://localhost:5000/api"
+      default: "http://frans.pythonanywhere.com/"
     },
     api_endpoint_gpu: {
       type: String,
-      default: "http://localhost:5000/api"
+      default: "http://frans.pythonanywhere.com/"
     },
     queries_examples: {
       type: Array,
